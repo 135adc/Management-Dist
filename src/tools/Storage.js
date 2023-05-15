@@ -1,3 +1,4 @@
+
 import { createStore } from "vuex";
 
 const Store = createStore({
@@ -22,8 +23,10 @@ const Store = createStore({
         },
         registUserInfo(state, { name, password }) {
             //注册用户信息
+            //存储用户登录信息
             state.userName = name
             state.userPassword = password
+            // console.log(name,password);
         }
     }
 })

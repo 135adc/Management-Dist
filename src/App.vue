@@ -1,7 +1,9 @@
 <template>
-  <!-- 路由的渲染出口 -->
- <router-view></router-view>
+
+    <router-view></router-view>
  
+  <!-- 路由的渲染出口 -->
+
 </template>
 
 <script>
@@ -16,6 +18,5 @@ export default {
 }
 </script>
 
-<style>
-
+<style scoped>
 </style>
