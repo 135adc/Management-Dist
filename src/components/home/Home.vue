@@ -87,10 +87,10 @@ export default {
         // console.log(Storage);
         Storage.commit('clearUserInfo')
         this.$router.push({name:'login'})
-      }
-      // selectItem(index) {
-      //       this.$router.push(index)
-      //   }
+      },
+      selectItem(index) {
+            this.$router.push(index)
+        }
     }
 }
 </script>
@@ -98,10 +98,10 @@ export default {
 <style scoped>
 #container {
    
-    height: 95%;
-    width:90%;
+    height: 100%;
+    width:100%;
     position: absolute;
-    left: 80px;
+    /* left: 80px; */
 }
 #top {
     background-color:#545c64;
